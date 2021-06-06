@@ -1,0 +1,23 @@
+{
+  "name": "@dyrektrypt/animations",
+  "version": "1.0.1",
+  "description": "Custom made animations for web development.",
+  "main": "index",
+  "types": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyrektrypt/animations.git"
+  },
+  "keywords": [
+    "es6",
+    "typescript",
+    "html5",
+    "animations"
+  ],
+  "author": "Dyrektrypt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dyrektrypt/animations/issues"
+  },
+  "homepage": "https://github.com/Dyrektrypt/animations#readme"
+}
