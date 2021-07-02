@@ -1,6 +1,6 @@
 # **animations**
 ---
-A simple to learn and use API for custom animations in HTML5; supporting both Typescript and ES6.
+A simple to learn and use API for custom animations in HTML5; supporting Typescript, ES and UMD.
 > See **'installation'** for obtaining the API.
 
 > See **'usage'** for learning how to use the API.  
@@ -14,7 +14,9 @@ npm i @dyrektrypt/animations
 ```
 And that's it! Now all you need to do is import desired custom animations.
 
-Please note if using Typescript, the tsconfig property `moduleResolution: node` should be present in order to support npm imports.
+Please note:
+* For Typescript - the tsconfig property `moduleResolution: node` should be present in order to support npm imports.
+* For ES modules - code should be transpiled to UMD or similar variants by using either webpack, rollup or browserify. 
 
 ## **usage**
 ---
