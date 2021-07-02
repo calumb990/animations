@@ -1,2 +1,2 @@
-export { LoadAnimation } from './dist/LoadAnimation'
-export { BlinkAnimation } from './dist/BlinkAnimation'
+export { LoadAnimation } from './src/LoadAnimation'
+export { BlinkAnimation } from './src/BlinkAnimation'

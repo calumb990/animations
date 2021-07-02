@@ -1,7 +1,11 @@
-#Typescript
+#Library
 animations
-tsconfig.json
+index.js
 
 #Configuration
+webpack.config.js
+package-lock.json
+tsconfig.json
 .gitignore
 .npmignore
+.babelrc

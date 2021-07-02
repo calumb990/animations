@@ -1,9 +1,8 @@
 import { _Animation, AnimationConfig } from './internal/Animation'
 
-
 class BlinkAnimation extends _Animation {
+    private blinker: NodeJS.Timeout | undefined
     private hidden = false
-    private blinker = 0 
     private index = 0
 
     constructor(elements: Array<HTMLElement>, animationConfig: AnimationConfig) {
@@ -30,8 +29,9 @@ class BlinkAnimation extends _Animation {
     }
 
     async halt() {
- 
-        clearTimeout(this.blinker)
+
+        this.blinker && clearTimeout(this.blinker)
+
         this.elements.forEach(character => {
             super.reset(character, this.playClassValue, this.haltClassValue)
         })
