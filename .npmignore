@@ -1,6 +1,6 @@
 #Library
-animations
 index.js
+src
 
 #Configuration
 webpack.config.js
