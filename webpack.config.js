@@ -8,7 +8,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(ts|js)$/,
+        test: /\.(js|ts)$/,
         use: 'babel-loader'
       },
     ]
@@ -19,7 +19,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/'),
     filename: '[name].js',
-    library:  {
+    library: {
       name: 'animations',
       type: 'umd'
     },
