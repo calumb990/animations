@@ -24,7 +24,7 @@ abstract class _Animation {
     }
 
     protected reset(element: HTMLElement, replaceValue: string, appendValue: string): void {
-        let classNames = ((element?.getAttribute('class') || '').replace(new RegExp(replaceValue, 'g'), '') + ' ' + appendValue + ' ').trim()
+        let classNames = ((element?.getAttribute('class') || '').replace(new RegExp(replaceValue || appendValue + '|' + appendValue || replaceValue, 'g'), '') + ' ' + appendValue + ' ').trim()
     
         if (classNames === '') {
             element.removeAttribute('class')
