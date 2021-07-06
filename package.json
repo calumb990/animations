@@ -1,6 +1,6 @@
 {
   "name": "@dyrektrypt/animations",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Custom made animations for web development.",
   "main": "dist/animations.js",
   "types": "index.d.ts",

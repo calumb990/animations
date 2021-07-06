@@ -1,5 +1,6 @@
 const path = require('path')
 
+
 module.exports = {
   entry: {
     animations: './index.js'
@@ -15,6 +16,9 @@ module.exports = {
   },
   resolve: { 
     extensions: ['.js', '.ts'] 
+  },
+  optimization: {
+    minimize: false
   },
   output: {
     path: path.resolve(__dirname, 'dist/'),
