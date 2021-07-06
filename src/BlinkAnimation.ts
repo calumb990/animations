@@ -1,5 +1,6 @@
 import { _Animation, AnimationConfig } from './internal/Animation'
 
+
 class BlinkAnimation extends _Animation {
     private blinker: NodeJS.Timeout | undefined
     private hidden = false
